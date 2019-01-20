@@ -1,0 +1,8 @@
+type Mutation {
+    register(username: String!, password: String!): User
+    login(username: String!, password: String!): User
+    updateUser(id: ID!, password: String!): User
+    deleteUser(id: ID!): User
+
+    createPost(title: String!, content: String!, userId: ID!): Post
+}

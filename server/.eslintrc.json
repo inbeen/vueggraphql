@@ -1,0 +1,80 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "block-spacing": [
+            "error",
+            "always"
+        ],
+        "comma-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true 
+            }
+        ],
+        "comma-style": [
+            "error",
+            "last"
+        ],
+        "func-call-spacing": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        "keyword-spacing": [
+            "error",
+            {
+                "before": true,
+                "after": true
+            }
+        ],
+        "no-redeclare": "error",
+        "no-tabs": "error",
+        "no-trailing-spaces": "error",
+        "no-undef": "error",
+        "no-unused-vars": [
+            "error",
+            {
+                "vars": "all",
+                "args": "none"
+            }
+        ],
+        "no-with": "error",
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "rest-spread-spacing": [
+            "error",
+            "never"
+        ],
+        "space-infix-ops": "error",
+        "spaced-comment": [
+            "error",
+            "always",
+            {
+                "line": {
+                    "markers": ["/"],
+                    "exceptions": ["-", "+"]
+                },
+                "block": {
+                    "markers": ["!"],
+                    "exceptions": ["*"],
+                    "balanced": true
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "back end for graphql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start",
+    "stop": "egg-scripts stop",
+    "lint": "eslint --ext .js .",
+    "migrate": "sequelize db:migrate"
+  },
+  "author": "inbeen",
+  "license": "MIT",
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "egg": "^2.14.2",
+    "egg-cors": "^2.1.2",
+    "egg-graphql": "^2.3.0",
+    "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^4.2.0",
+    "egg-session": "^3.1.0",
+    "egg-validate": "^2.0.2",
+    "jsonwebtoken": "^8.4.0",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize-cli": "^5.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "egg-bin": "^4.9.0",
+    "eslint": "^5.12.0"
+  }
+}
